@@ -1,0 +1,63 @@
+  .banner{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  }
+  h2 {
+    font-family: 'Caveat', cursive;
+  }
+  .checked {
+    color: rgb(51, 152, 206);
+  }
+  .bloc1 {
+    background-color: #9eb8af;
+  }
+  .bloc2 {
+    background-color: #ffffff;
+  }
+  .bloc3 {
+    background-color: #9eb8af;
+  }
+  .bloc4 {
+    background-color: #ffffff ;
+  }
+  .bloc5 {
+    background-color: #9eb8af;
+  }
+  .bloc6 {
+    background-color: #ffffff;
+  }
+  .bloc7 {
+    background-color: #9eb8af;
+  }
+  .container {
+    position: relative; 
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position:-ms-page; /* Position the background text */
+  /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 40%; /* Full width */
+    /* Some padding */
+    text-align: center;
+  }
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
